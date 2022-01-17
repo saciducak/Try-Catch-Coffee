@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="227.0" prefWidth="488.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.hadibismillah.HelloController3">
+   <children>
+      <Text fx:id="help2" layoutX="82.0" layoutY="80.0" strokeType="OUTSIDE" strokeWidth="0.0" text="If you need help you can; " wrappingWidth="276.13671875">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Text>
+      <Text fx:id="call" fill="#12a721" layoutX="82.0" layoutY="119.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Call  +(020) 0277 7878" wrappingWidth="227.13671875">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Text>
+      <Text fx:id="mail" fill="#12a721" layoutX="82.0" layoutY="173.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Send Mail  support@restaurantsystem.support" wrappingWidth="338.8037109375">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Text>
+      <Text fx:id="or" fill="#12a721" layoutX="145.0" layoutY="144.0" strokeType="OUTSIDE" strokeWidth="0.0" text="OR" wrappingWidth="16.224609375" />
+      <Text fx:id="help" layoutX="221.0" layoutY="34.0" strokeType="OUTSIDE" strokeWidth="0.0" text="HELP">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Text>
+      <Button fx:id="exitButton" layoutX="212.0" layoutY="188.0" mnemonicParsing="false" text="Exit" textFill="#d00505">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

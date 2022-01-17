@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="630.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.hadibismillah.HelloController2">
+   <children>
+      <Button fx:id="Back" layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onMouseClicked="#GoBack" text="Go Back" textFill="#eb0707">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+      <Text layoutX="242.0" layoutY="55.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Restaurant System">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Text>
+      <ChoiceBox fx:id="Menu" layoutX="91.0" layoutY="165.0" prefHeight="25.0" prefWidth="126.0" />
+      <ChoiceBox fx:id="howMany" layoutX="91.0" layoutY="209.0" prefHeight="25.0" prefWidth="126.0" />
+      <Text layoutX="31.0" layoutY="182.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Dessert" />
+      <Text layoutX="31.0" layoutY="226.0" strokeType="OUTSIDE" strokeWidth="0.0" text="How many" />
+      <TableView fx:id="TableView" layoutX="232.0" layoutY="122.0" prefHeight="200.0" prefWidth="377.0">
+        <columns>
+          <TableColumn fx:id="TableColumn" prefWidth="75.0" text="Table" />
+          <TableColumn fx:id="Dessert" prefWidth="75.0" text="Dessert" />
+            <TableColumn fx:id="numberDessert" prefWidth="75.0" text="Number" />
+            <TableColumn fx:id="drink" prefWidth="75.0" text="Drink" />
+            <TableColumn fx:id="numberDrink" prefWidth="75.0" text="Number" />
+        </columns>
+      </TableView>
+      <ChoiceBox fx:id="Drink" layoutX="91.0" layoutY="250.0" prefHeight="25.0" prefWidth="126.0" />
+      <Text layoutX="31.0" layoutY="267.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Drink" />
+      <Text layoutX="31.0" layoutY="305.0" strokeType="OUTSIDE" strokeWidth="0.0" text="How Many" />
+      <ChoiceBox fx:id="howMany2" layoutX="91.0" layoutY="288.0" prefHeight="25.0" prefWidth="126.0" />
+      <ChoiceBox fx:id="TableAreas" layoutX="91.0" layoutY="126.0" prefHeight="25.0" prefWidth="126.0" />
+      <Text fx:id="Table" layoutX="31.0" layoutY="143.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Table" />
+   </children>
+</AnchorPane>

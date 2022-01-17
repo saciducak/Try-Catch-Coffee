@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.control.Button?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.hadibismillah.HelloController">
+   <children>
+      <ImageView fx:id="welcome" fitHeight="150.0" fitWidth="150.0" layoutX="225.0" layoutY="21.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../../../../OneDrive/Masaüstü/welcome.jpg" />
+         </image>
+      </ImageView>
+      <TextField fx:id="EntryId" layoutX="274.0" layoutY="109.0" prefHeight="25.0" prefWidth="158.0" />
+      <Text fx:id="ID" layoutX="174.0" layoutY="126.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ID" wrappingWidth="18.607421875" />
+      <Text fx:id="Password" layoutX="174.0" layoutY="154.0" strokeType="OUTSIDE" strokeWidth="0.0" text="PASSWORD" />
+      <Button fx:id="Help" layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onMouseClicked="#onHelpButtonClicked" prefHeight="29.0" prefWidth="46.0" text="HELP" textFill="#09cd13f0">
+         <font>
+            <Font name="Calibri Bold" size="13.0" />
+         </font>
+      </Button>
+      <Button fx:id="Exit" layoutX="534.0" layoutY="14.0" mnemonicParsing="false" onMouseClicked="#onExitButtonClicked" text="EXİT" textFill="#f80202">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Button>
+      <RadioButton fx:id="radiobutton" layoutX="183.0" layoutY="247.0" mnemonicParsing="false" onMouseClicked="#getField" text="Haven't you registered?" />
+      <PasswordField fx:id="EntryPassword" layoutX="274.0" layoutY="137.0" prefHeight="25.0" prefWidth="158.0" />
+      <Button fx:id="Entry" layoutX="282.0" layoutY="200.0" mnemonicParsing="false" onMouseClicked="#GoNext" prefHeight="25.0" prefWidth="63.0" text="Entry">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+      <Text fx:id="SecretId" layoutX="174.0" layoutY="308.0" strokeType="OUTSIDE" strokeWidth="0.0" text="NEW ID" visible="false" wrappingWidth="63.0">
+         <font>
+            <Font size="11.0" />
+         </font>
+      </Text>
+      <Text fx:id="SecretPassword" layoutX="174.0" layoutY="340.0" strokeType="OUTSIDE" strokeWidth="0.0" text="NEW PASSWORD" visible="false">
+         <font>
+            <Font size="11.0" />
+         </font>
+      </Text>
+      <TextField fx:id="SecretTextField" layoutX="271.0" layoutY="290.0" prefHeight="25.0" prefWidth="158.0" visible="false" />
+      <PasswordField fx:id="SecretPasswordField" layoutX="272.0" layoutY="323.0" prefHeight="25.0" prefWidth="158.0" visible="false" />
+      <Button fx:id="secretRegisterButton" layoutX="281.0" layoutY="361.0" mnemonicParsing="false" onMouseClicked="#onRegisterButton" text="REGİSTER" visible="false" />
+      <Text fx:id="textRegister" fill="#019408" layoutX="238.0" layoutY="308.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Successfully Registered!" visible="false" wrappingWidth="150.0">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <Text fx:id="IncorrectText" fill="#eb0808" layoutX="281.0" layoutY="184.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Incorret Password!" visible="false">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Text>
+      <CheckBox fx:id="showPassword" layoutX="419.0" layoutY="171.0" mnemonicParsing="false" onMouseClicked="#onShowPassword" prefHeight="17.0" prefWidth="9.0" />
+      <TextField fx:id="passwordText" layoutX="276.0" layoutY="167.0" prefHeight="25.0" prefWidth="141.0" visible="false" />
+   </children>
+</AnchorPane>

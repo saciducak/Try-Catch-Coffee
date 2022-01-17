@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane prefHeight="267.0" prefWidth="449.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.hadibismillah.HelloController">
+   <children>
+      <Text fx:id="call" fill="#03b90f" layoutX="140.0" layoutY="120.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Call  +(020) 0277 78 78" wrappingWidth="168.13671875">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Text>
+      <Label fx:id="help" layoutX="152.0" layoutY="55.0" text=" You Need Help?">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+      <Text fx:id="mail" fill="#03b90f" layoutX="89.0" layoutY="157.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Mail  support@sacidrestaurant.support" wrappingWidth="270.13671875">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Text>
+      <Text fx:id="or" layoutX="209.0" layoutY="138.0" strokeType="OUTSIDE" strokeWidth="0.0" text="or" wrappingWidth="11.203125" />
+      <Text fx:id="bobMarley" layoutX="146.0" layoutY="249.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Don't Worry, We're with you." />
+   </children>
+</AnchorPane>
